@@ -31,8 +31,7 @@ void Text::draw(Screen *screen) {
 
 int Text::init() {
 	TTF_Init();
-	// FIXME; Don't hardcore this path
-	Text::font = TTF_OpenFont("C:\\Users\\Ricardo\\source\\repos\\RazPong\\RazPong\\Inconsolata.ttf", 40);
+	Text::font = TTF_OpenFont("Inconsolata.ttf", 40);
 	if (Text::font == NULL) {
 		std::cerr << "error: font not found\n";
 		return 4;
