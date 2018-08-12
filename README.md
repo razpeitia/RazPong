@@ -2,6 +2,8 @@
 
 A C++ pong clone, made over the weekend just to learn C++ in the process.
 
+![RazPong](https://github.com/razpeitia/RazPong/blob/master/PongScreenShot.png?raw=true)
+
 # Keys
 
 Q -> Quit  
